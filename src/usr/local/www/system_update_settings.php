@@ -167,7 +167,7 @@ $section = new Form_Section('Updates');
 $section->addInput(new Form_Checkbox(
 	'disablecheck',
 	'Dashboard check',
-	'Disable the automatic dashboard auto-update check',
+	'Disable the Dashboard automatic update check',
 	isset($curcfg['disablecheck'])
 	));
 
